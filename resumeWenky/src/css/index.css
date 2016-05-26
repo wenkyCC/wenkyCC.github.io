@@ -1,0 +1,936 @@
+.musicOn{
+	width:.5rem;
+	height:.5rem;
+	background:url(/resumeWenky/images/music.png);
+	background-size:100% 100%;
+	border-radius:50%;
+	overflow:hidden;
+	position:fixed;
+	top:.3rem;
+	left:80%;
+	z-index:9999;
+	-webkit-animation:mymusic 2s infinite;
+}
+@keyframes mymusic{
+	from{-webkit-transform:rotate(1deg);}
+	to{-webkit-transform:rotate(360deg);}
+}
+.musicOff{
+	width:.5rem;
+	height:.5rem;
+	background:url(/resumeWenky/images/music.png);
+	background-size:100% 100%;
+	border-radius:50%;
+	overflow:hidden;
+	position:fixed;
+	top:.3rem;
+	left:80%;
+	z-index:9999;
+}
+.one{
+	background:url(/resumeWenky/images/bg.jpg) no-repeat;
+	background-size:100% 100%;
+	overflow:hidden;
+}
+.logo{
+	width:1.5rem;
+	height:1.5rem;
+	border-radius:50%;
+	margin:1rem auto ;
+	background:url(/resumeWenky/images/me.jpg);
+	background-size:100% 100%;
+	overflow:hidden;
+}
+.logoCir{
+	width:1.7rem;
+	height:1.7rem;
+	background:url(/resumeWenky/images/logo.png);
+	background-size:100% 100%;
+	margin:-2.6rem auto 0;
+	-webkit-animation:mylogoCir 3s infinite 2s;
+	
+}
+@keyframes mylogoCir{
+	from{-webkit-transform:rotate(1deg);}
+	to{-webkit-transform:rotate(360deg);}
+}
+.resume{
+	width:1.75rem;
+	height:0.23rem;
+	margin:0.2rem auto 0.07rem;
+	font-size:0.17rem;
+	color:white;
+	text-align:center;
+	line-height:0.23rem;
+}
+.resume2{
+	width:1.7rem;
+	height:0.5rem;
+	background:url(/resumeWenky/images/line.png) no-repeat center bottom;
+	background-size:100% 10%;
+	margin:0 auto;
+}
+.resume2 img{
+	width:100%;
+	height:60%;
+}
+.qiuzhi{
+	width:1.3rem;
+	height:0.13rem;
+	font-size:0.18rem;
+	text-align:center;
+	line-height:0.15rem;
+	color:white;
+	margin:0.13rem auto 0;
+	font-weight:bold;
+}
+.getme1{
+	width:1.2rem;
+	height:0.18rem;
+	font-size:.18rem;
+	font-weight:bold;
+	color:white;
+	position:absolute;
+	right:55%;
+	margin-top:.5rem;
+}
+.getme2{
+	width:1.2rem;
+	height:0.18rem;
+	font-size:.18rem;
+	font-weight:bold;
+	color:white;
+	position:absolute;
+	left:55%;
+	margin-top:.5rem;
+}
+.msgMore{
+	width:2.2rem;
+	height:.5rem;
+	background:url(/resumeWenky/images/lejie.png) no-repeat;
+	background-size:100% 100%;
+	margin:30% auto 0;
+	line-height:.5rem;
+	text-align:center;
+	font-size:.18rem;
+	font-weight:bold;
+	color:#323232;
+}
+.msgMore img{
+	width:.15rem;
+	height:.15rem;
+	-webkit-animation:myMsgXia 1s infinite 2s;
+	-webkit-animation-direction: alternate;
+}
+@keyframes myMsgXia{
+	from{-webkit-transform:translateY(0);}
+	to{-webkit-transform:translateY(.05rem);}
+}
+.xia{
+	width:.35rem;
+	height:.15rem;
+	background:url(/resumeWenky/images/xia.png);
+	background-size:100% 100%;
+	position:fixed;
+	bottom:0.2rem;
+	left:47%;
+	-webkit-animation:myMsgXia 1s infinite 2s;
+	-webkit-animation-direction: alternate;
+	z-index:9999;
+}
+@keyframes myMsgXia{
+	from{-webkit-transform:translateY(0);}
+	to{-webkit-transform:translateY(.05rem);}
+}
+
+.two{
+	background:url(/resumeWenky/images/bg.jpg) no-repeat;
+	background-size:100% 100%;
+	overflow:hidden;
+}
+.two-hed1{
+	width:1rem;
+	height:1rem;
+	background:url(/resumeWenky/images/kuang.png) no-repeat;
+	background-size:100% 100%;
+	margin:.5rem auto 0;
+	-webkit-transform:rotate(45deg);
+}
+.two-hed2{
+	width:1rem;
+	height:1rem;
+	background:url(/resumeWenky/images/kuang.png) no-repeat;
+	background-size:100% 100%;
+	margin:.5rem auto 0;
+	position:absolute;
+	top:0;
+	left:50%;
+	-webkit-transform:translateX(-50%);
+	-webkit-animation:twoHed 3s infinite 2s;
+}
+@keyframes twoHed{
+	from{
+		-webkit-transform:translateX(-50%) rotate(1deg);
+	}
+	to{
+		-webkit-transform:translateX(-50%) rotate(360deg);
+	}
+}
+.two-hed-tit{
+	width:.8rem;
+	height:.4rem;
+	background:url(/resumeWenky/images/mulu.png) no-repeat;
+	background-size:100% 100%;
+	position:absolute;
+	top:.85rem;
+	left:50%;
+	-webkit-transform:translateX(-50%);
+	z-index:9999;
+}
+.two-hed-line1{
+	width:1rem;
+	height:.17rem;
+	background:url(/resumeWenky/images/linedian.png);
+	background-size:100% 100%;
+	position:absolute;
+	top:.86rem;
+	left:0;
+}
+.two-hed-line2{
+	width:1rem;
+	height:.17rem;
+	background:url(/resumeWenky/images/linedian2.png);
+	background-size:100% 100%;
+	position:absolute;
+	top:.86rem;
+	right:0;
+}
+.two-list{
+	width:60%;
+	height:.4rem;
+	margin:.7rem auto 0;
+	display:-webkit-box;
+}
+.two-number{
+	-webkit-box-flex:2;
+	height:.4rem;
+	background:url(/resumeWenky/images/1.png) no-repeat center center;
+	background-size:80% 80%;
+}
+.twoJianTou{
+	-webkit-box-flex:2;
+	background:url(/resumeWenky/images/jiantou.png) no-repeat center center;
+	background-size:50% 50%;
+}
+.two-lis-text{
+	-webkit-box-flex:2;
+	background:url(/resumeWenky/images/dashed.png);
+	background-size:100% 100%;
+	color:#FFFFFF;
+	font-size:.26rem;
+	text-align:center;
+	line-height:.4rem;
+}
+.two-lis-line{
+	width:60%;
+	height:.02rem;
+	background:url(/resumeWenky/images/line.png) no-repeat center center;
+	margin:.1rem auto 0;
+}
+.twoList2{
+	margin-top:.3rem;
+}
+.jianleft{
+	background:url(/resumeWenky/images/jianleft.png) no-repeat center center;
+	background-size:50% 50%;
+}
+.Ntwo{
+	background:url(/resumeWenky/images/2.png) no-repeat center center;
+	background-size:80% 80%;
+}
+.Nthree{
+	background:url(/resumeWenky/images/3.png) no-repeat center center;
+	background-size:80% 80%;
+}
+.Nfore{
+	background:url(/resumeWenky/images/4.png) no-repeat center center;
+	background-size:80% 80%;
+}
+
+.three,.four,.five,.six{
+	background:url(/resumeWenky/images/bg2.jpg) no-repeat;
+	background-size:100% 100%;
+	overflow:hidden;
+}
+.three-hed{
+	width:.4rem;
+	height:.4rem;
+	background:url(/resumeWenky/images/1.png);
+	background-size:100% 100%;
+	margin:.4rem auto 0;
+}
+.tree-hed{
+	width:35%;
+	height:.5rem;
+	background:url(/resumeWenky/images/dashed.png) no-repeat;
+	background-size:100% 100%;
+	margin:.5rem auto .05rem;
+	color:white;
+	text-align:center;
+	line-height:.5rem;
+	font-size:.25rem;
+}
+.about{
+	width:35%;
+	height:.2rem;
+	text-align:center;
+	font-size:.18rem;
+	color:white;
+	line-height:.2rem;
+	margin:0 auto;
+}
+.three-cont{
+	width: 85%;
+	height:60%;
+	background:url(/resumeWenky/images/msgBG.png);
+	background-size:100% 100%;
+	margin:.15rem auto 0;
+	padding-top:.3rem;
+	-webkit-box-sizing:border-box;
+	position:relative;
+}
+.namebox{
+	width:40%;
+	height:.4rem;
+	background:url(/resumeWenky/images/namebox.png);
+	background-size:100% 100%;
+	margin:0 auto;
+	border-radius:.1rem;
+	overflow:hidden;
+}
+.name{
+	position:absolute;
+	top:.3rem;
+	width:40%;
+	height:.4rem;
+	font-size:.3rem;
+	font-weight:bold;
+	line-height:.4rem;
+	text-align:center;
+	left:50%;
+	-webkit-transform:translateX(-50%);
+	color:#323232;
+}
+
+.zhiwei{
+	width:50%;
+	height:.2rem;
+	margin:.05rem auto 0;
+	text-align:center;
+	line-height:.2rem;
+	font-size:.16rem;
+	color:#323232;
+}
+.name-list1{
+	width:80%;
+	height:.35rem;
+	background:url(/resumeWenky/images/namekuang.png);
+	background-size:100% 100%;
+	margin:.2rem auto 0;
+	display:-webkit-box;
+}
+.three-lis-dian1{
+	width:.3rem;
+	height:.3rem;
+	background:url(/resumeWenky/images/dian.png) no-repeat center right;
+	background-size:20% 20%;
+}
+.three-lis-text{
+	-webkit-box-flex:1;
+	height:.35rem;
+	text-align:center;
+	line-height:.35rem;
+	color:#323232;
+}
+.three-lis-dian2{
+	width:.3rem;
+	height:.35rem;
+	background:url(/resumeWenky/images/dian.png) no-repeat center left;
+	background-size:20% 20%;
+}
+
+.four-hed{
+	width:.4rem;
+	height:.4rem;
+	background:url(/resumeWenky/images/2.png);
+	background-size:100% 100%;
+	margin:.4rem auto 0;
+}
+.four-hed2{
+	width:35%;
+	height:.5rem;
+	background:url(/resumeWenky/images/dashed.png) no-repeat;
+	background-size:100% 100%;
+	margin:.5rem auto .05rem;
+	color:white;
+	text-align:center;
+	line-height:.5rem;
+	font-size:.25rem;
+}
+.four-dian{
+	width:.2rem;
+	height:.2rem;
+	background:url(/resumeWenky/images/yuan.png);
+	background-size:100% 100%;
+	margin:.2rem auto 0;
+}
+.four-line1{
+	width:50%;
+	height:.03rem;
+	background:url(/resumeWenky/images/ex-line.png);
+	background-size:100% 100%;
+	position:absolute;
+	top:2.33rem;
+}
+.four-line2{
+	width:.02rem;
+	height:4rem;
+	background:url(/resumeWenky/images/ex-line2.png);
+	background-size:100% 100%;
+	position:absolute;
+	left:.4rem;
+	top:2rem;
+}
+.four-line3{
+	width:3rem;
+	height:.03rem;
+	background:url(/resumeWenky/images/ex-line.png);
+	background-size:100% 100%;
+	position:absolute;
+	left:.4rem;
+	top:6rem;
+}
+.four-dians{
+	width:.15rem;
+	height:.15rem;
+	background:url(/resumeWenky/images/dianblue.png);
+	background-size:100% 100%;
+	position:absolute;
+	left:.34rem;
+}
+.fourdian1{
+	margin-top:.2rem;
+}
+.fourdian2{
+	margin-top:.7rem;
+}
+.fourdian3{
+	margin-top:1.2rem;
+}
+.fourdian4{
+	margin-top:1.7rem;
+}
+.fourdian5{
+	margin-top:2.2rem;
+}
+.fourdian6{
+	margin-top:2.7rem;
+}
+.four-text{
+	font-size:.17rem;
+	color:white;
+	position:absolute;
+	left:.55rem;
+}
+.fourtext1{
+	margin-top:.2rem;
+}
+.fourtext2{
+	margin-top:.7rem;
+}
+.fourtext3{
+	margin-top:1.2rem;
+}
+.fourtext4{
+	margin-top:1.7rem;
+}
+.fourtext5{
+	margin-top:2.2rem;
+}
+.fourtext6{
+	margin-top:2.7rem;
+}
+
+.four-dian2{
+	width:.2rem;
+	height:.2rem;
+	background:url(/resumeWenky/images/yuan.png);
+	background-size:100% 100%;
+	margin-top:3.43rem;
+	margin-left:3.3rem;
+}
+.four-lastline{
+	width:.02rem;
+	height:.7rem;
+	background:url(/resumeWenky/images/lineshu.png);
+	background-size:80% 100%;
+	margin-top:0rem;
+	margin-left:3.4rem;
+}
+
+.five-hed{
+	width:.4rem;
+	height:.4rem;
+	background:url(/resumeWenky/images/3.png);
+	background-size:100% 100%;
+	margin:.4rem auto 0;
+}
+.five-hed2{
+	width:35%;
+	height:.5rem;
+	background:url(/resumeWenky/images/dashed.png) no-repeat;
+	background-size:100% 100%;
+	margin:.5rem auto .05rem;
+	color:white;
+	text-align:center;
+	line-height:.5rem;
+	font-size:.25rem;
+}
+.five-line{
+	width:.02rem;
+	height:4rem;
+	background:url(/resumeWenky/images/ex-line2.png);
+	background-size:100% 100%;
+	margin:.25rem auto 0;
+}
+.five-dian1{
+	width:.15rem;
+	height:.15rem;
+	background:url(/resumeWenky/images/yuan.png);
+	background-size:100% 100%;
+	position:absolute;
+	top:3.1rem;
+	left:48%;
+}
+.five-line1{
+	width:1.73rem;
+	height:.1rem;
+	background:url(/resumeWenky/images/fiveline.png);
+	background-size:100% 100%;
+	position:absolute;
+	top:3.12rem;
+	left:.26rem;
+}
+.five-text1-year{
+	width:1.5rem;
+	height:.2rem;
+	font-size:.17rem;
+	color:white;
+	position:absolute;
+	top:2.9rem;
+	left:.3rem;
+	text-align:right;
+}
+.five-text1-name{
+	width:1.7rem;
+	height:.2rem;
+	font-size:.15rem;
+	color:white;
+	position:absolute;
+	top:3.2rem;
+	left:.15rem;
+}
+.five-text1-cont{
+	width: 1.7rem;
+	position:absolute;
+	left:.15rem;
+	top:3.8rem;
+	color:white;
+	font-size:.14rem;
+}
+.five-dian2{
+	width:.15rem;
+	height:.15rem;
+	background:url(/resumeWenky/images/yuan.png);
+	background-size:100% 100%;
+	position:absolute;
+	top:5.6rem;
+	left:48%;
+}
+.five-line2{
+	width:1.73rem;
+	height:.1rem;
+	background:url(/resumeWenky/images/fiveline2.png);
+	background-size:100% 100%;
+	position:absolute;
+	top:5.64rem;
+	left:50.5%;
+}
+.five-text1-year2{
+	width:1.5rem;
+	height:.2rem;
+	font-size:.17rem;
+	color:white;
+	position:absolute;
+	top:5.75rem;
+	left:50%;
+	text-align:right;
+}
+.five-text1-name2{
+	width:1.7rem;
+	height:.2rem;
+	font-size:.15rem;
+	color:white;
+	position:absolute;
+	top:5.28rem;
+	left:52%;
+}
+.five-text1-cont2{
+	width: 1.6rem;
+	position:absolute;
+	left:52%;
+	top:2.7rem;
+	color:white;
+	font-size:.14rem;
+}
+
+
+
+
+
+.six-hed{
+	width:.4rem;
+	height:.4rem;
+	background:url(/resumeWenky/images/4.png);
+	background-size:100% 100%;
+	margin:.4rem auto 0;
+}
+.six-hed2{
+	width:35%;
+	height:.5rem;
+	background:url(/resumeWenky/images/dashed.png) no-repeat;
+	background-size:100% 100%;
+	margin:.5rem auto .05rem;
+	color:white;
+	text-align:center;
+	line-height:.5rem;
+	font-size:.25rem;
+}
+.relation-logo{
+	width:1rem;
+	height:1rem;
+	border-radius:50%;
+	background:url(/resumeWenky/images/me2.jpg);
+	background-size:100%;
+	overflow:hidden;
+	margin:.3rem auto 0;
+}
+.relation-name{
+	width:.8rem;
+	height:.3rem;
+	margin:.08rem auto 0;
+	font-size:.22rem;
+	text-align:center;
+	line-height:.3rem;
+	color:white;
+}
+.relation-tel{
+	width: 80%;
+    height: .3rem;
+    text-align: center;
+    line-height: .3rem;
+    margin: .2rem auto .05rem;
+    color: white;
+    font-size: .18rem;
+}
+.relation-line{
+	width:80%;
+	height: .02rem;
+	background:url(/resumeWenky/images/line.png);
+	background-size:100% 100%;
+	margin:0 auto;
+}
+.relation-email{
+	width: 80%;
+    height: .3rem;
+    text-align: center;
+    line-height: .3rem;
+    margin: .1rem auto .05rem;
+    color: white;
+    font-size: .18re;
+}
+
+
+@media screen and (max-width:320px){
+	.logo{
+		width:1rem;
+		height:1rem;
+		border-radius:50%;
+		margin:.7rem auto ;
+	}
+	.logoCir{
+		width:1.2rem;
+		height:1.2rem;
+		margin:-1.81rem auto 0;
+	}
+	.resume{
+		font-size:0.15rem;
+	}
+
+	.two-hed-line1{
+		width:.92rem;
+		height:.15rem;
+		background-size:100% 100%;
+		position:absolute;
+		top:.87rem;
+		left:0;
+	}
+	.two-hed-line2{
+		width:.92rem;
+		height:.15rem;
+		position:absolute;
+		top:.87rem;
+		right:0;
+	}
+	.two-list{
+		margin:.32rem auto 0;
+	}
+
+	.tree-hed{
+		width:35%;
+		height:.4rem;
+		margin:.3rem auto .05rem;
+		color:white;
+		text-align:center;
+		line-height:.4rem;
+		font-size:.21rem;
+	}
+	.about{
+		width:35%;
+		height:.15rem;
+		text-align:center;
+		font-size:.14rem;
+		color:white;
+		line-height:.15rem;
+		margin:0 auto;
+	}
+	.three-cont {
+   		padding-top: .2rem;
+	}
+	.namebox{
+		height:.3rem;
+	}
+	.name{
+		position:absolute;
+		top:.21rem;
+		height:.3rem;
+		font-size:.23rem;
+		line-height:.3rem;
+	}
+	.zhiwei{
+		height:.15rem;
+		margin:.02rem auto 0;
+		line-height:.15rem;
+		font-size:.14rem;
+	}
+	.name-list1{
+		width:80%;
+		height:.3rem;
+		margin:.17rem auto 0;
+	}
+	.three-lis-text{
+		-webkit-box-flex:1;
+		height:.3rem;
+		text-align:center;
+		line-height:.3rem;
+		color:#323232;
+	}
+	.four-hed2{
+		width:35%;
+		height:.4rem;
+		margin:.3rem auto .05rem;
+		color:white;
+		text-align:center;
+		line-height:.4rem;
+		font-size:.21rem;	
+	}
+	.four-dian{
+		width:.13rem;
+		height:.13rem;
+		margin:.17rem auto 0;
+	}
+	.four-line1{
+		width:50%;
+		height:.02rem;
+		top:1.92rem;
+	}
+	.four-line2{
+		height:3.4rem;
+		top:1.6rem;
+	}
+	.four-line3{
+		width: 2rem;
+	    height: .02rem;
+	    top: 5rem;
+	}
+	.four-dians{
+		width:.12rem;
+		height:.12rem;
+		left:.35rem;
+	}
+	.fourdian1{
+		margin-top:.15rem;
+	}
+	.fourdian2{
+		margin-top:.65rem;
+	}
+	.fourdian3{
+		margin-top:1.15rem;
+	}
+	.fourdian4{
+		margin-top:1.65rem;
+	}
+	.fourdian5{
+		margin-top:2.15rem;
+	}
+	.fourdian6{
+		margin-top:2.65rem;
+	}
+	.four-text{
+		font-size:.14rem;
+	}
+	.fourtext1{
+		margin-top:.15rem;
+	}
+	.fourtext2{
+		margin-top:.65rem;
+	}
+	.fourtext3{
+		margin-top:1.15rem;
+	}
+	.fourtext4{
+		margin-top:1.65rem;
+	}
+	.fourtext5{
+		margin-top:2.15rem;
+	}
+	.fourtext6{
+		margin-top:2.65rem;
+	}
+	.four-dian2{
+		width:.13rem;
+		height:.13rem;
+		margin-top: 2.95rem;
+	    margin-left: 2.35rem;
+	}
+	.four-lastline{
+		width:.02rem;
+		height:.5rem;
+		margin-top:0rem;
+		margin-left:2.39rem;
+	}
+
+	.five-hed2{
+		width:35%;
+		height:.4rem;
+		margin:.3rem auto .05rem;
+		color:white;
+		text-align:center;
+		line-height:.4rem;
+		font-size:.21rem;
+	}
+	.five-line{
+		width:.02rem;
+		height:3.3rem;
+		margin:.2rem auto 0;
+	}
+	.five-dian1{
+		width:.13rem;
+		height:.13rem;
+		top:2.5rem;
+	}
+	.five-line1{
+		width:1.4rem;
+		height:.07rem;
+		top:2.54rem;
+		left:.26rem;
+	}
+	.five-text1-year{
+		font-size: .15rem;
+	    top: 2.32rem;
+	    left: .35rem;
+	    text-align: left;
+	    width: 1.2rem;
+	}
+	.five-text1-name{
+		width: 1.3rem;
+	    height: .2rem;
+	    font-size: .15rem;
+	    top: 2.65rem;
+	    left: .3rem;
+	}
+	.five-text1-cont{
+		width: 1.3rem;
+	    position: absolute;
+	    left: .2rem;
+	    top: 3.2rem;
+	    color: white;
+	    font-size: .12rem;
+	}
+	.five-dian2{
+		width:.13rem;
+		height:.13rem;
+		top:4.8rem;
+	}
+	.five-line2{
+		width:1.6rem;
+		height:.1rem;
+		top:4.82rem;
+		left:50.5%;
+	}
+	.five-text1-year2{
+		width: 1.2rem;
+		font-size:.15rem;
+		top:4.91rem;
+	}
+	.five-text1-name2{
+		width: 1.3rem;
+		 height: .2rem;
+		font-size:.15rem;
+		top:4.43rem;
+	}
+	.five-text1-cont2{
+		width: 1.3rem;
+	    top: 2.2rem;
+	    font-size: .12rem;
+	    left: 54%;
+	}
+	.six-hed2{
+		width:35%;
+		height:.4rem;
+		margin:.3rem auto .05rem;
+		color:white;
+		text-align:center;
+		line-height:.4rem;
+		font-size:.21rem;
+	}
+	.relation-logo{
+		width:.8rem;
+		height:.8rem;
+		margin:.25rem auto 0;
+	}
+	.relation-name{
+		height:.25rem;
+		margin:.08rem auto 0;
+		font-size:.2rem;
+		line-height:.25rem;
+	}
+	.relation-tel{
+	    font-size: .16rem;
+	}
+
+	.relation-email{
+		width: 90%;
+	    font-size: .14re;
+	}
+}
