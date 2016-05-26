@@ -37,7 +37,7 @@
 	height:1.2rem;
 	border-radius:50%;
 	margin:.6rem auto ;
-	background:url(/resumeWenky/images/me.jpg);
+	background:url(/resumeWenky/images/me2.jpg);
 	background-size:100% 100%;
 	overflow:hidden;
 }
@@ -295,7 +295,7 @@
 	background:url(/resumeWenky/images/msgBG.png);
 	background-size:100% 100%;
 	margin:.15rem auto 0;
-	padding-top:.3rem;
+	padding-top:.1rem;
 	-webkit-box-sizing:border-box;
 	position:relative;
 }
@@ -310,7 +310,7 @@
 }
 .name{
 	position:absolute;
-	top:.3rem;
+	top:.12rem;
 	width:40%;
 	height:.4rem;
 	font-size:.3rem;
@@ -336,7 +336,7 @@
 	height:.35rem;
 	background:url(/resumeWenky/images/namekuang.png);
 	background-size:100% 100%;
-	margin:.2rem auto 0;
+	margin:.1rem auto 0;
 	display:-webkit-box;
 }
 .three-lis-dian1{
@@ -729,14 +729,14 @@
 		margin:0 auto;
 	}
 	.three-cont {
-   		padding-top: .2rem;
+   		padding-top: .1rem;
 	}
 	.namebox{
 		height:.3rem;
 	}
 	.name{
 		position:absolute;
-		top:.21rem;
+		top:.12rem;
 		height:.3rem;
 		font-size:.23rem;
 		line-height:.3rem;
@@ -750,7 +750,7 @@
 	.name-list1{
 		width:80%;
 		height:.3rem;
-		margin:.17rem auto 0;
+		margin:.08rem auto 0;
 	}
 	.three-lis-text{
 		-webkit-box-flex:1;
